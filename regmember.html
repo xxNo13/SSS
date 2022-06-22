@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Republic of the Philippines Social Security System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/login.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: eBusiness - v4.7.0
+  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a><br>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li class="dropdown"><a class="nav-link scrollto" href="#services">Services <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="index.html#services">Benifits</a></li>
+              <li><a href="loans.html">Loans</a></li>
+              <li><a href="htregister.html">How to Register</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="index.html#blog">News</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="login.html">Login</a></li>
+          <li class="dropdown"><a class="nav-link scrollto active" href="#">Sign-up <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li><a href="regmember.html">Register as Member</a></li>
+                <li class="dropdown"><a href="#">Register as Employer <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="regremployer.html">Register as Regular Employer</a></li>
+                    <li><a href="reghemployer.html">Register as Household Employer</a></li>
+                  </ul>
+                </li>
+                <li><a href="regccp.html">Register as Coverage & Collection Partners</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <div class="conainer" style="margin: 75px auto;">
+      <div class="row">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="bg-light rounded shadow form-signin w-100 m-auto">
+            <form>
+              <p class="text-danger">* Required</p>
+              <p>Please supply the following Information as reported to the Social Security System</p>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                <label for="floatingInput">* CRN/SS Number</label>
+              </div>
+              <p class="mt-2 mb-0">Kindly inform your network administrator not to block mail from sss.gov.ph.</p>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingemail" placeholder="email">
+                <label for="floatingemail">* Email Address</label>
+              </div>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingemail" placeholder="email">
+                <label for="floatingemail">* Confirm Email Address</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                <label for="floatingtext">* Preferred User ID</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                <label for="floatingtext">* Confirm Preferred User ID</label>
+              </div>
+              <div class="d-flex mt-3">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">* Surname/Lastname</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">* Given Name</label>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Middle Name</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Suffix</label>
+                </div>
+              </div>
+              <div class="form-floating w-50">
+                <input type="date" class="form-control" id="floatingtext" placeholder="text">
+                <label for="floatingtext">* Date of Birth</label>
+              </div>
+              <p class="mt-2 mb-0">* Address</p>
+              <div class="d-flex">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Province</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">City/Municipality</label>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Zip Code</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Barangay</label>
+                </div>
+              </div>
+              <div class="form-floating w-50">
+                  <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext">Street</label>
+              </div>
+              <p class="mt-2 mb-0">Foreign Address</p>
+              <div class="d-flex">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Country</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">City</label>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Zip Code</label>
+                </div>
+                <div class="form-floating w-50">
+                    <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext">Address</label>
+                </div>
+              </div>
+              <div class="form-floating mt-3">
+                  <select type="text mySelect" class="form-control" id="floatingSelect" placeholder="text" onchange="changed()">
+                    <option value="">Select One</option>  
+                    <option value="1">Savings Account Number / Citibank Cash Card / UBP Quick Card / UMID - ATM Saving Account Number Registered in SSS</option>  
+                    <option value="2">Mobile Number Registered in SSS</option>
+                    <option value="3">UMID Card</option>
+                    <option value="4">Employer ID Number / Household Employer ID Number</option>
+                    <option value="5">Paid Payment Reference Number / SBR No. / Payment Receipt Transaction Number</option>
+                    <option value="6">Date of Loan with Existing Loan Balance</option>
+                    <option value="7">Transaction Number shown in your Personal Record/ UMID Application (E-1/E-6) (for those who applied online for SS number from December 10, 2020 onwards)</option>
+                    <option value="8">Check Number of any monthly pension of retiree/disability pensioner who is receiving the pension benefit through check</option>
+                  </select>
+                  <label for="floatingSelect">* Registration Preference</label>
+              </div>
+              <div class="form-floating d-none" id="one">
+                  <input type="password" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* Savings Account Number / Citibank Cash Card / UBP Quick Card / UMID - ATM Saving Account Number Registered in SSS</small></label>
+              </div>
+              <div class="form-floating d-none" id="two">
+                  <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* Mobile Number Registered in SSS</small></label>
+              </div>
+              <div class="d-none" id="three">
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* UMID Card Pin Code</small></label>
+                </div>
+                <p class="my-1">OR</p>
+                <p class="mb-0">Mother's Maiden Name reported in the E6 - UMID Card Application Form</p>
+                <div class="d-flex">
+                  <div class="form-floating w-50">
+                      <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                      <label for="floatingtext">* Surname/Lastname</label>
+                  </div>
+                  <div class="form-floating w-50">
+                      <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                      <label for="floatingtext">* Given Name</label>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="form-floating w-50">
+                      <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                      <label for="floatingtext">Middle Name</label>
+                  </div>
+                  <div class="form-floating w-50">
+                      <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                      <label for="floatingtext">Suffix</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-floating d-none" id="four">
+                  <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* Employer ID Number / Household Employer ID Number</small></label>
+              </div>
+              <div class="form-floating d-none" id="five">
+                  <input type="text" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* Paid Payment Reference Number / SBR No. / Payment Receipt Transaction Numberr</small></label>
+              </div>
+              <div class="form-floating d-none" id="six">
+                  <input type="date" class="form-control" id="floatingtext" placeholder="text">
+                  <label for="floatingtext"><small>* Date of Loan with Existing Loan Balance</small></label>
+              </div>
+              <div class="d-none mt-1" id="seven">
+                <p class="mb-0">
+                  * Transaction Number shown in your Personal Record/Unified Multi-Purpose ID (UMID) Application (E-1/E-6) (for those who applied online for SS number from December 10, 2020 onwards)
+                </p>
+                <div class="form-floating w-50">
+                    <input type="date" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext"><small>* Date</small></label>
+                </div>
+              </div>
+              <div class="d-none mt-1" id="eight">
+                <p class="mb-0">
+                  * Check Number of any monthly pension of retiree/disability pensioner who is receiving the pension benefit through check
+                </p>
+                <div class="form-floating w-50">
+                    <input type="date" class="form-control" id="floatingtext" placeholder="text">
+                    <label for="floatingtext"><small>* Date</small></label>
+                </div>
+              </div>
+              
+              
+
+              <div class="checkbox mt-2 mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> I accept the <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Term of Service</a>
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Terms of Services</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="">
+            <p class="fw-bold mb-1">ACCEPTANCE OF TERMS</p>
+            <p class="text-break">
+              My.SSS welcomes you. My.SSS (SSS Website) provides its service to you subject to the following Terms of Service ("TOS"), which may be updated by us from time to time without notice to you. By accessing and using our website, you AGREE TO COMPLY WITH and BE LEGALLY BOUND by the TOS. You can review the most current version of the TOS at any time at: http://www.sss.gov.ph/sss/registrationPages/terms.jsp. In addition, when using third party internet services, you and the Service Provider shall be subject to any posted guidelines or rules applicable to such services. All such guidelines or rules are hereby incorporated by reference into the TOS. The term "SSS" refers to the Social Security System and the term "you" refers to any SSS member or any user of our site.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">DESCRIPTION OF SERVICE</p>
+            <p class="text-break">
+              My.SSS provides users with access to your social security records, including various communication tools, forums, SSS payment services, search services, online transactions and personalized content. You understand and agree that these services may include certain communications from My.SSS, such as service announcements and advertisements, administrative messages and news updates, and that these communications are considered part of My.SSS membership and you will not be able to opt out of receiving them.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">ENHANCEMENTS AND ERRORS</p>
+            <p class="text-break">
+              Unless explicitly stated otherwise, any new features that augment or enhance the current My.SSS shall be subject to the TOS. SSS does not warrant or represent nor assumes any responsibility as to the timeliness, accuracy, reliability, deletion and misdelivery of information available on or through My.SSS, or failure to store any user communications or personalization settings. SSS also does not warrant that My.SSS will be error-free, free of viruses, or other harmful components or defects. You are responsible in obtaining access to My.SSS, and that access may involve third-party fees (such as Internet service provider or airtime charges). You are responsible for those fees, including fees associated with the display or delivery of advertisements. In addition, you must provide and are responsible for all equipment necessary to access My.SSS.
+            </p>
+            </div>
+          <div>
+            <p class="fw-bold mb-1">YOUR REGISTRATION OBLIGATIONS</p>
+            <p class="text-break">
+              You agree to: (a) provide true, accurate, current and complete information about yourself or your company as prompted by the online member/employer USER ID registration, and (b) maintain and promptly update your registration information to keep it true, accurate, current and complete. If you provide any information that is untrue, inaccurate, not current or incomplete, or My.SSS has reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, SSS has the right to suspend or terminate your account and refuse any and all current or future use of My.SSS (or any portion thereof).
+            </p>
+          </div>
+          <div class="">
+            <p class="fw-bold mb-1">YOUR PASSWORD AND ACCOUNT SECURITY</p>
+            <p class="text-break mb-1">
+              You will be assigned a Password and USER ID that will be used when accessing your My.SSS account. You are responsible in ensuring that your Password and USER ID is secured and that your My.SSS account cannot be accessed by unauthorized persons.
+            </p>
+            <p class="text-break mb-1">
+              You are solely responsible for any loss due or other fraudulent activities associated with the sharing of your Password and USER ID to a third person, or SSS shall be held free from any liability arising from access or use of the account by a third person, whether such access or use of the third person was with or without authority granted by you as the holder of the account
+            </p>
+            <p class="text-break">
+              SSS shall automatically block or disable access to the account in case a wrong password is used for five (5) consecutive times.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">FORMS AND DOCUMENTS</p>
+            <p class="text-break">
+              My.SSS may provide downloadable forms and checklists for free that can be used in your transactions with the SSS on a non-exclusive license basis only for your personal use and for non-commercial purposes, without any right to re-license, sublicense, distribute, assign or transfer such license. SSS does not guarantee or warrant the documents' suitability, legal effect, completeness, modernity, accuracy, and/or appropriateness.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">RESTRICTIONS ON USE</p>
+            <p class="text-break">
+              Your access to My.SSS and use of your My.SSS account is subject to the following restrictions:
+            </p>
+            <div class="ml-2">
+              <p class="text-break">
+                * Unless otherwise stated, My.SSS and the materials in My.SSS are protected by proprietary rights (including but not limited to intellectual property rights). You may download forms, view and print your SSS information from My.SSS for your own personal use only and you must not republish, sell, rent, reproduce, duplicate, copy, modify, sell, trade, resell or exploit for any commercial purposes any portion of My.SSS or access to My.SSS.
+              </p>
+              <p class="text-break">
+                * You must not use My.SSS in any way that causes, or may cause, damage to My.SSS or impairment of the availability or accessibility of My.SSS; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.
+              </p>
+              <p class="text-break">
+                * You must not use My.SSS to copy, store, host, transmit, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus or other malicious computer software.
+              </p>
+              <p class="text-break">
+                * You must not conduct any systematic or automated data collection activities in relation to My.SSS without SSS' express written consent.
+              </p>
+            </div>
+            <p class="text-break">
+              The accounts of users who will violate or abuse the use of My.SSS or abuse the use of information downloaded from My.SSS may be disabled and/or terminated by SSS without prior notice.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">LINKS TO OTHER SITES</p>
+            <p class="text-break">
+              Third party content from member agencies may appear on or may be accessible via links from My.SSS. SSS is not responsible for and assume no liability for their contents or for any loss arising from access to these websites. Use of the hyperlinks and access to such linked websites are entirely at your own risk. Information and opinions in the third party content are neither endorsed by SSS nor does it necessarily reflect SSS' beliefs.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">COMPLIANCE WITH APPLICABLE LAWS</p>
+            <p class="text-break">
+              You must comply with all applicable laws regarding the proper use of My.SSS as a website in the internet. Your unauthorized use of My.SSS or unauthorized, improper or fraudulent use of your account shall subject you or any third party to a claim for damages, and/or criminal liability in accordance with applicable laws, including but not limited to the following provisions of law:
+            </p>
+            <div class="ml-2">
+              <p class="text-break">
+                * Whoever, for the purpose of causing any payment to be made under the Social Security Act, or under an agreement thereunder, where none is authorized to be paid, shall make or cause to be made false statement or representations as to any compensation paid or received, or whoever makes or causes to be made any false statement of a material fact in any claim for any benefit payable under this Act, or application for loan with the SSS, or whoever makes or causes to be made any false statement, representation, affidavit or document in connection with such claim or loan, shall suffer the penalties provided for in Article One hundred seventy-two of the Revised Penal Code (Section 28 (a) of the Social Security Act of 1997)
+              </p>
+              <p class="text-break">
+                * Hacking or cracking or interference in a computer system/server or information and communication system; or any access in order to corrupt, alter, steal, or destroy using a computer or other similar information and communication devices, without the knowledge and consent of the owner of the computer or information and communications system, including the introduction of computer viruses and the like, resulting in the corruption, destruction, alteration, theft or loss of electronic data messages or electronic documents shall be punished by a minimum fine of One Hundred Thousand pesos (P100,000.00) and a maximum commensurate to the damage incurred and a mandatory imprisonment of six (6) months to three (3) years. (Section 33(a) of the Philippine Electronic Commerce Act)
+              </p>
+              <p class="text-break">
+                * Piracy or the unauthorized copying, reproduction, dissemination, or distribution, importation, use, removal, alteration, substitution, modification, storage, uploading, downloading, communication, making available to the public, or broadcasting of protected material, electronic signature or copyrighted works including legally protected sound recording or phonogramsor information material on protected works, through the use of telecommunication networks, such as, but not limited to, the internet, in a manner that infringes intellectual property rights shall be punished by a minimum fine of One Hundred Thousand pesos (P100,000.00) and a maximum commensurate to the damage incurred and a mandatory imprisonment of six (6) months to three (3) years. (Section 33(b) of the Philippine Electronic Commerce Act)
+              </p>
+            </div>
+            <p class="text-break">
+              SSS reserves the right to investigate complaints or reported violations of this TOS and to take appropriate actions against those found to be in violation. You must timely inform SSS of any knowledge of improper or illegal use of My.SSS or your My.SSS account.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">LIMITATION OF LIABILITY</p>
+            <p class="text-break">
+              The Information and Services offered by My.SSS may contain bugs, errors, problems or other limitations. To the maximum extent permitted by applicable laws, in no case shall SSS be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business or personal profits, business or personal interruption, loss of business or personal information, or any other pecuniary loss) arising out of the use or inability to use My.SSS.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">PRIVACY POLICY</p>
+            <p class="text-break">
+              SSS is committed to ensure that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using My.SSS, you can be assured that it will only be used in accordance with this privacy policy.
+            </p>
+          </div>
+          <div>
+            <p class="fw-bold mb-1">LAW, JURISDICTION, AND DISPUTE RESOLUTION</p>
+            <p class="text-break">
+              The TOS constitute the entire agreement between you and SSS. If any provision of this TOS is found to be invalid or unenforceable for any reason, such invalidity or unenforceability shall not affect other provisions of this TOS which shall remain in full force and effect. This Agreement shall be treated as if executed and performed in Quezon City, Philippines, and shall be governed by and construed in accordance with Philippine laws. Any suit or proceeding arising out of or relating to this TOS shall be instituted in the appropriate court of Quezon City. All actions and controversies that may arise from the implementation of this TOS shall be submitted to mediation and/or arbitration in accordance with the provisions of Republic Act No. 9285 otherwise known as the "Alternative Dispute Resolution Act of 2004."
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>Republic of the Philippines Social Security System</h2>
+                </div>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/SSSPh"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/PHLSSS"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="http://instagram.com/mysssph"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/user/MySSSPhilippines"><i class="bi bi-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>SSS Hotline:</span> 1455</p>
+                  <p><span>Toll-Free No.:</span> 1-800-10-2255777</p>
+                  <p><span>Email:</span> member_relations@sss.gov.ph</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>SSS</strong>. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    function changed(){
+      var selected = document.getElementById("floatingSelect")
+      var one = document.getElementById("one")
+      var two = document.getElementById("two")
+      var three = document.getElementById("three")
+      var four = document.getElementById("four")
+      var five = document.getElementById("five")
+      var six = document.getElementById("six")
+      var seven = document.getElementById("seven")
+      var eight = document.getElementById("eight")
+
+      switch(selected.value) {
+        case '1':
+          one.classList.remove("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+          
+        case '2':
+          one.classList.add("d-none")
+          two.classList.remove("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+          
+        case '3':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.remove("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+          
+        case '4':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.remove("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+        
+        case '5':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.remove("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+        
+        case '6':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.remove("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+        
+        case '7':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.remove("d-none")
+          eight.classList.add('d-none')
+          break;
+        
+        case '8':
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.remove('d-none')
+          break;
+
+        default:
+          one.classList.add("d-none")
+          two.classList.add("d-none")
+          three.classList.add("d-none")
+          four.classList.add("d-none")
+          five.classList.add("d-none")
+          six.classList.add("d-none")
+          seven.classList.add("d-none")
+          eight.classList.add('d-none')
+          break;
+      }
+    }
+  </script>
+
+</body>
+
+</html>
